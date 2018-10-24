@@ -23,16 +23,17 @@ function yes() {
       document.getElementById("story").innerHTML = story + "<br> <br> You pick up your knife off of the bedside table and stare the Indians down scanning them to decide your best chance of surviving. One of the Wampanoag is holding a tomahawk while the other is holding a bow. Do you attack the...";
       document.getElementById("yes").innerHTML = "tomohawk";
       document.getElementById("no").innerHTML = "bowman";
-      state = 4;
+      state = 3;
       break;
 
-    case 3:
+    case 3:      
+      document.getElementById("story").innerHTML = story + "<br> <br> You lunge at the man holding the tomahawk and stab him in the chest. He screams in agony dropping his weapon. The bow attempts to shoot you, missing by an inch hitting the wall. You make your quick escape and stare behind to make sure no one is chasing you. Looking back may not have been the best decision, considering that you instantly fall straight onto your knife and it impales your leg. Do you...";
+      document.getElementById("yes").innerHTML = "ignore the bleeding wound completely.";
+      document.getElementById("no").innerHTML = "Search an abandoned house for medical supplies";
+      state = 3;
 
     case 4:
-      document.getElementById("story").innerHTML = "who do you want to be";
-      document.getElementById("yes").innerHTML = "Englishmen";
-      document.getElementById("no").innerHTML = "Native";
-      state = 1;
+
       break;
     case 5:
     case 6:
@@ -82,6 +83,9 @@ function no() {
 
 
     case 1:
+
+      break;
+    case 2:
       document.getElementById("story").innerHTML = "You jump out your window thinking that you have avoided the Wampanoag Indians and all harm that they could cause you only to see 8 different Wampanoag Indians surrounding as they begin to stab you to death.";
       document.getElementById("yes").innerHTML = "reset";
       document.getElementById("no").innerHTML = "reset";
@@ -89,9 +93,14 @@ function no() {
 
 
       state = 4;
-      break;
-    case 2:
     case 3:
+      document.getElementById("story").innerHTML = "You lunge at the Indian with the bow straining your arm towards his leg and gashing it deeply, he falls over as you make your swift escape past the tomahawk. You take a quick look around with no Indians within your vision, suddenly you realize that through all of the adrenaline the Wampanoag with the tomahawk had sliced your leg and blood was oozing down. Do you...";
+      document.getElementById("yes").innerHTML = "Search a raided house for medical supplies";
+      document.getElementById("no").innerHTML = "Leave into the forest through the cold climate ";
+
+
+
+      state = 7;
     case 4:
     case 5:
     case 6:
