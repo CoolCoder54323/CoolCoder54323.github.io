@@ -82,8 +82,7 @@ function no() {
 
 
     case 1:
-      document.getElementById("story").innerHTML = "You jump out your window thinking that you have avoided the Wampanoag Indians and all harm that they could cause you only to see 8 different Wampanoag Indians surrounding as they begin to stab you to death.
-";
+      document.getElementById("story").innerHTML = "You jump out your window thinking that you have avoided the Wampanoag Indians and all harm that they could cause you only to see 8 different Wampanoag Indians surrounding as they begin to stab you to death.";
       document.getElementById("yes").innerHTML = "reset";
       document.getElementById("no").innerHTML = "reset";
 
