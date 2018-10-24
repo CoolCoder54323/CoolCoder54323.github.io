@@ -49,6 +49,11 @@ function yes() {
     case 13:
     case 14:
     case 15:
+      document.getElementById("story").innerHTML = story + "<br> <br>You bleed to death. Now that was just stupid. What did you expect?";
+      document.getElementById("yes").innerHTML = "reset";
+      document.getElementById("no").innerHTML = "reset";
+      state = 1
+      break;
     case 16:
     case 17:
     case 18:
@@ -108,12 +113,56 @@ function no() {
       document.getElementById("story").innerHTML = "what do you want to be";
       document.getElementById("yes").innerHTML = "Englishmen";
       document.getElementById("no").innerHTML = "Native";
-      state = 1
+      state = 
       break;
     case 5:
+      document.getElementById("story").innerHTML = story + "<br> <br>You run to a house that appears to have already been raided searching for bandages, and much to your luck you discover bandages and a cloth to keep your wound clean. Do you...";
+      document.getElementById("yes").innerHTML = "find a safe hiding spot outside then apply bandages";
+      document.getElementById("no").innerHTML = "Apply bandages in the house";
+      state = 7
+      break;
     case 6:
+      document.getElementById("story").innerHTML = story + "<br> <br>You clean off your wound and put the bandages on. Whilst you are almost finished applying that bandage you hear many people walking below you. Do you..";
+      document.getElementById("yes").innerHTML = "Inspect the footsteps";
+      document.getElementById("no").innerHTML = "Ditch out the window ";
+      state = 7
+      break;
     case 7:
     case 8:
+    case 9:
+    case 10:
+    case 11:
+    case 12:
+    case 13:
+    case 14:
+    case 15:
+      document.getElementById("story").innerHTML = "You bleed to death. Now that was just stupid. What did you expect?";
+      document.getElementById("yes").innerHTML = "reset";
+      document.getElementById("no").innerHTML = "reset";
+      state = 1
+      break;
+    case 16:
+    case 17:
+    case 18:
+    case 19:
+    case 20:
+    case 21:
+    case 22:
+    case 23:
+    case 24:
+    case 25:
+    case 26:
+    case 27:
+    case 28:
+    case 29:
+    case 30:
+    case 31:
+    case 32:
+    case 33:
+    case 34:
+    case 35:
+    case 36:
+    case 37:
 
 
 
