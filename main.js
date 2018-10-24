@@ -113,7 +113,7 @@ function no() {
       document.getElementById("story").innerHTML = "what do you want to be";
       document.getElementById("yes").innerHTML = "Englishmen";
       document.getElementById("no").innerHTML = "Native";
-      state = 
+      state = 1
       break;
     case 5:
       document.getElementById("story").innerHTML = story + "<br> <br>You run to a house that appears to have already been raided searching for bandages, and much to your luck you discover bandages and a cloth to keep your wound clean. Do you...";
