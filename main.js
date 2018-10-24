@@ -33,6 +33,7 @@ function yes() {
       document.getElementById("yes").innerHTML = "Englishmen";
       document.getElementById("no").innerHTML = "Native";
       state = 1;
+      break;
     case 5:
     case 6:
     case 7:
@@ -89,6 +90,7 @@ function no() {
 
 
       state = 4;
+      break;
     case 2:
     case 3:
     case 4:
