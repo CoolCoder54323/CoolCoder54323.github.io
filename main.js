@@ -1,4 +1,4 @@
-var state = 0;
+var state = 1;
 document.getElementById("yes").innerHTML = "englishmen";
 document.getElementById("no").innerHTML = "native";
 
