@@ -113,5 +113,10 @@ function scrollD() {
   var objDiv = document.getElementById("story");
   objDiv.scrollTop = objDiv.scrollHeight;
 }
-func jump(string)
+function jump(story,yes,no,state1){
+          document.getElementById("story").innerHTML = story + "<br><br>" + "/(story)";
+      document.getElementById("yes").innerHTML = yes;
+      document.getElementById("no").innerHTML = no;
+      state = state1
+}
 
