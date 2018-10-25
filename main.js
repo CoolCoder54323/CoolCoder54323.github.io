@@ -31,7 +31,7 @@ function yes() {
     case 4:
       jump("You lunge at the man holding the tomahawk and stab him in the chest. He screams in agony dropping his weapon. The bow attempts to shoot you, missing by an inch hitting the wall. You make your quick escape and stare behind to make sure no one is chasing you. Looking back may not have been the best decision, considering that you instantly fall straight onto your knife and it impales your leg. Do you...",
            "Do the most stupid thing, ignoring the bleeding wound completely.",
-           " Search an abandoned house for medical supplies",
+           "Search an abandoned house for medical supplies",
            14)
             break;
     case 5:
