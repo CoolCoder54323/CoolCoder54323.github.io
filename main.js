@@ -89,7 +89,7 @@ function yes() {
            0)
             break;
     case 14:
-      jump("You attempt to leave the house only to find a group of the Wampanoag Indians right outside of the door. They must have heard you rummaging the house. Of course, you die.",
+      jump("Now that was just stupid. What did you expect?",
            "reset",
            "reset",
            1)
@@ -336,10 +336,10 @@ function no() {
            7)
             break;
     case 5:
-      jump("You lunge at the Indian with the bow straining your arm towards his leg and gashing it deeply, he falls over as you make your swift escape past the tomahawk. You take a quick look around with no Indians within your vision, suddenly you realize that through all of the adrenaline the Wampanoag with the tomahawk had sliced your leg and blood was oozing down. Do you...",
-           "Search a raided house for medical supplies",
-           "Leave into the forest through the cold climate ",
-           7)
+      jump("You run to a house that appears to have already been raided searching for bandages, and much to your luck you discover bandages and a cloth to keep your wound clean. Do you...",
+           "find a safe hiding spot outside then apply bandages",
+           "Apply bandages in the house ",
+           12)
             break;
     case 6:
       jump("",
@@ -376,10 +376,10 @@ function no() {
            0)
             break;
     case 12:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You clean off your wound and put the bandages on. Whilst you are almost finished applying that bandage you hear many people walking below you. Do you..",
+           "Inspect the footsteps",
+           "Ditch out the window",
+           15)
             break;
     case 13:
       jump("",
@@ -394,16 +394,16 @@ function no() {
            0)
             break;
     case 15:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You instantly jump out the window petrified of what could be outside and much to your luck you land safely. Do you...",
+           "Head towards the nearest frontier in search of help",
+           "Attempt to talk to the Indians",
+           17)
             break;
     case 16:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You begin walking North towards the frontier. You check on your leg, it already looking better and re-apply the bandages. Do you...",
+           "Rest for the night",
+           "Tuff the walk out for another 12 hours",
+           19)
             break;
     case 17:
       jump("",
@@ -412,13 +412,13 @@ function no() {
            0)
             break;
     case 18:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You continue walking for another 12 hours and make it to the nearest frontier. It appears to have not been raided and you rush inside to talk to someone. After entering the peasants see your condition giving you food and water after hearing what had happened. You head to talk to the head of the settlement about what had happened. Do you...",
+           "Listen to the story",
+           "Ignore the story",
+           24)
             break;
     case 19:
-      jump("",
+      jump("You continue walking for another 12 hours and make it to the nearest frontier. It appears to have not been raided and you rush inside to talk to someone. After entering the peasants see your condition giving you food and water after hearing what had happened. You head to talk to the head of the settlement about what had happened. Do you...",
            "",
            "",
            0)
@@ -436,8 +436,8 @@ function no() {
            0)
             break;
     case 22:
-      jump("",
-           "",
+      jump("This is probably important. You should most likely listen along.",
+           "Ask to hear",
            "",
            0)
             break;
