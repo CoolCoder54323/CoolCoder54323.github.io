@@ -423,7 +423,7 @@ function no() {
       jump("You continue walking for another 12 hours and make it to the nearest frontier. It appears to have not been raided and you rush inside to talk to someone. After entering the peasants see your condition giving you food and water after hearing what had happened. You head to talk to the head of the settlement about what had happened. Do you...",
            "Listen to the story",
            "Ignore the story",
-           22e)
+           22)
             break;
     case 20:
       jump("",
