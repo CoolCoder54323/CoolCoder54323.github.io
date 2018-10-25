@@ -89,11 +89,11 @@ function yes() {
            0)
             break;
     case 14:
-      jump("",
-           "",
-           "",
-           0)
-            break;
+      jump("You attempt to leave the house only to find a group of the Wampanoag Indians right outside of the door. They must have heard you rummaging the house. Of course, you die.",
+           "reset",
+           "reset",
+           1)
+          break;
     case 15:
       jump("You attempt to leave the house only to find a group of the Wampanoag Indians right outside of the door. They must have heard you rummaging the house. Of course, you die.",
            "reset",
