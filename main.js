@@ -330,10 +330,10 @@ function no() {
            0)
       break;
     case 4:
-      jump("",
-           "",
-           "",
-           0)
+       jump("You lunge at the Indian with the bow straining your arm towards his leg and gashing it deeply, he falls over as you make your swift escape past the tomahawk. You take a quick look around with no Indians within your vision, suddenly you realize that through all of the adrenaline the Wampanoag with the tomahawk had sliced your leg and blood was oozing down. Do you...",
+        "Search a raided house for medical supplies",
+          "Leave into the forest through the cold climate ",
+           7)
             break;
     case 5:
       jump("You lunge at the Indian with the bow straining your arm towards his leg and gashing it deeply, he falls over as you make your swift escape past the tomahawk. You take a quick look around with no Indians within your vision, suddenly you realize that through all of the adrenaline the Wampanoag with the tomahawk had sliced your leg and blood was oozing down. Do you...",
