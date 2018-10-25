@@ -61,7 +61,7 @@ function no() {
   var story = document.getElementById("story").innerHTML
   switch (state) {
 
-    case:0
+    case 0:
     case 1:
     case 2:
     case 3:
