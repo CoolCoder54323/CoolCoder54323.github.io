@@ -41,9 +41,9 @@ function yes() {
            0)
             break;
     case 6:
-      jump("",
-           "",
-           "",
+      jump("You attempt to leave the house only to find a group of the Wampanoag Indians right outside of the door. They must have heard you rummaging the house. Of course, you die.",
+           "reset",
+           "reset",
            0)
             break;
     case 7:
@@ -53,9 +53,9 @@ function yes() {
            0)
             break;
     case 8:
-      jump("",
-           "",
-           "",
+      jump("You begin to head back towards the settlement not realizing that you are making quite a bit of noise, you forget about the invaders focusing on your wound and just when you can see the settlement an arrow flies through your chest as you drop to the ground.",
+           "reset",
+           "reset",
            0)
             break;
     case 9:
