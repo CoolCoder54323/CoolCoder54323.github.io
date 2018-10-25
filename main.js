@@ -48,7 +48,7 @@ function yes() {
     case 35:
     case 36:
     case 37:
-
+    break;
 
 
 
@@ -99,6 +99,7 @@ function no() {
     case 35:
     case 36:
     case 37:
+    break;
 
 
 
