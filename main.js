@@ -30,7 +30,7 @@ function yes() {
       document.getElementById("story").innerHTML = story + "<br> <br> You lunge at the man holding the tomahawk and stab him in the chest. He screams in agony dropping his weapon. The bow attempts to shoot you, missing by an inch hitting the wall. You make your quick escape and stare behind to make sure no one is chasing you. Looking back may not have been the best decision, considering that you instantly fall straight onto your knife and it impales your leg. Do you...";
       document.getElementById("yes").innerHTML = "ignore the bleeding wound completely.";
       document.getElementById("no").innerHTML = "Search an abandoned house for medical supplies";
-      state = 3;
+      state = 15;
       break;
     case 4:
       document.getElementById("story").innerHTML = "what do you want to be";
@@ -101,7 +101,7 @@ function no() {
       state = 4;
       break;
     case 3:
-      document.getElementById("story").innerHTML = story + "<br> <br>You lunge at the Indian with the bow straining your arm towards his leg and gashing it deeply, he falls over as you make your swift escape past the tomahawk. You take a quick look around with no Indians within your vision, suddenly you realize that through all of the adrenaline the Wampanoag with the tomahawk had sliced your leg and blood was oozing down. Do you...";
+      document.getElementById("story").innerHTML = story + "<br> <br>You run to a house that appears to have already been raided searching for bandages, and much to your luck you discover bandages and a cloth to keep your wound clean. Do you...";
       document.getElementById("yes").innerHTML = "Search a raided house for medical supplies";
       document.getElementById("no").innerHTML = "Leave into the forest through the cold climate ";
 
@@ -128,6 +128,11 @@ function no() {
       state = 7
       break;
     case 7:
+      document.getElementById("story").innerHTML = story + "<br> <br>You clean off your wound and put the bandages on. Whilst you are almost finished applying that bandage you hear many people walking below you. Do you..";
+      document.getElementById("yes").innerHTML = "Inspect the footsteps";
+      document.getElementById("no").innerHTML = "Ditch out the window ";
+      state = 7
+      break;
     case 8:
     case 9:
     case 10:
