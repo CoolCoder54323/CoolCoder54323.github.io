@@ -351,7 +351,7 @@ function no() {
       jump("You run into the forest towards the nearest settlement in search of help, but while you run your wound gets filthy and infected. Do you...",
            "Head back to the invaded settlement to search for medical supplies ",
            "Tough it out and stop acting like a wuss",
-           9)
+           8)
             break;
     case 8:
       jump("You decide that it’s not worth going back to the settlement because of the Wampanoag and continue heading towards to the nearest settlement to consult the reset of your fellow English. You decide to rest for a little as you are tired from fighting. Do you...",
