@@ -363,6 +363,8 @@ function no() {
       jump("You fall asleep for about 40 minutes not getting a full hour because you wake up in excruciating pain. You stare down at your wound as your vision goes blurry and you pass out and perish.",
            "reset",
            "reset",
+           1)
+
     case 10:
       jump("You fall asleep for about 40 minutes not getting a full hour because you wake up in excruciating pain. You stare down at your wound as your vision goes blurry and you pass out and perish.",
            "reset",
@@ -419,9 +421,9 @@ function no() {
             break;
     case 19:
       jump("You continue walking for another 12 hours and make it to the nearest frontier. It appears to have not been raided and you rush inside to talk to someone. After entering the peasants see your condition giving you food and water after hearing what had happened. You head to talk to the head of the settlement about what had happened. Do you...",
-           "",
-           "",
-           0)
+           "Listen to the story",
+           "Ignore the story",
+           22e)
             break;
     case 20:
       jump("",
@@ -438,14 +440,14 @@ function no() {
     case 22:
       jump("This is probably important. You should most likely listen along.",
            "Ask to hear",
-           "",
+           "Ask to hear",
            0)
             break;
     case 23:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Chief Jorgan begins to explain what has happened over the past months. The Wampanoag along with a few other tribes have been raiding villages attempting to drive us out of England. Your settlement is the 12th one to be attacked and hopefully the final. We had beheaded three of their warriors starting the war between us. Their leader King Philip was extremely upset and decided to take drastic measures. Chief Jorgan explains that he has an army ready to invade them on command and that they will begin their way to the Wampanoag on your command. Do you...",
+           "Send the the pilgrim army now",
+           "Send the army tomorrow after you are rested",
+           30)
             break;
     case 24:
       jump("",
@@ -466,28 +468,34 @@ function no() {
            0)
             break;
     case 27:
-      jump("",
-           "",
-           "",
+      jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You sell the other Indians into slavery, however some of them escape to Canada to begin a new life. You won the war cruelly.",
+           "yay",
+           "yay",
            0)
             break;
     case 28:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Your army treks through the woods and makes it to the abandoned settlement. Lucky for you the Wampanoag are still there roaming, and raiding the settlement. Do you...",
+           "Send your army in right away ",
+           "send one guy in to scout",
+           29)
             break;
     case 29:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You send your favorite soldier, Nick, in to scout. He peaks around the corner, looks side to side, turns around, gives the thumbs, and is instantly shot in the head. The Wampanoag see you and begin firing at your army with muskets and bows. Many of your men are dropping. Do you...",
+           "retreat",
+           "Stand your ground",
+           31)
             break;
     case 30:
       jump("",
            "",
            "",
            0)
+            break;
+    case 31:
+      jump("You tell your army to stand their ground and they do so. FInally all of the pilgrims begin to hit their shots as if they were not trying before. Bodies drop to the ground after the lead bullets get stuck inside of them. The Natives fight back with bows, as more and more rush in to help. You have the clear advantage considering that only a few Natives are wielding muskets after the many you slaightered. You see King Philip fighting along with the rest, easily recognized with his different appearance in clothing. The Wampanoag’s numbers begin to die down and eventually they surrender. Do you... ",
+           "Behead King Philip and let the rest go",
+           "Behead King Philip and sell the rest into slavery",
+           27)
             break;
     case 32:
       jump("",
