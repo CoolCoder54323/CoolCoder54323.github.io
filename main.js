@@ -9,46 +9,123 @@ document.getElementById("no").innerHTML = "native";
 function yes() {
   var story = document.getElementById("story").innerHTML
   switch (state) {
-
-    case 0:
+      
     case 1:
+      jump("You wake up with screaming piercing your ears from outside from the cold Southern English environment. You sit up startled and dazed as two Indians break through your door. It’s the Wampanoag Indians, you have a peace treaty with them, but it has been slowly crumbling over the years. Do you...",
+           "Fight",
+           "Jump out the window behind you",
+           0)
+      break;
     case 2:
+      jump("","","",0)
+      break;
     case 3:
+      jump("","","",0)
+      break;
     case 4:
+      jump("","","",0)
+      break;
     case 5:
+      jump("","","",0)
+      break;
     case 6:
+      jump("","","",0)
+      break;
     case 7:
+      jump("","","",0)
+      break;
     case 8:
+      jump("","","",0)
+      break;
     case 9:
+      jump("","","",0)
+      break;
     case 10:
+      jump("","","",0)
+      break;
     case 11:
+      jump("","","",0)
+      break;
     case 12:
+      jump("","","",0)
+      break;
     case 13:
+      jump("","","",0)
+      break;
     case 14:
+      jump("","","",0)
+      break;
     case 15:
+      jump("","","",0)
+      break;
     case 16:
+      jump("","","",0)
+      break;
     case 17:
+      jump("","","",0)
+      break;
     case 18:
+      jump("","","",0)
+      break;
     case 19:
+      jump("","","",0)
+      break;
     case 20:
+      jump("","","",0)
+      break;
     case 21:
+      jump("","","",0)
+      break;
     case 22:
+      jump("","","",0)
+      break;
     case 23:
+      jump("","","",0)
+      break;
     case 24:
+      jump("","","",0)
+      break;
     case 25:
+      jump("","","",0)
+      break;
     case 26:
+      jump("","","",0)
+      break;
     case 27:
+      jump("","","",0)
+      break;
     case 28:
+      jump("","","",0)
+      break;
     case 29:
+      jump("","","",0)
+      break;
     case 30:
-    case 31:
+      jump("","","",0)
+      break;
     case 32:
+      jump("","","",0)
+      break;
     case 33:
+      jump("","","",0)
+      break;
     case 34:
+      jump("",
+           "",
+           "",
+           0)
+     break;
     case 35:
+      jump("","","",0)
+      break;
+
     case 36:
+      jump("","","",0)
+      break;
+
     case 37:
-    break;
+      jump("","","",0)
+      break;
 
 
 
@@ -61,7 +138,6 @@ function no() {
   var story = document.getElementById("story").innerHTML
   switch (state) {
 
-    case 0:
     case 1:
     case 2:
     case 3:
@@ -114,7 +190,8 @@ function scrollD() {
   objDiv.scrollTop = objDiv.scrollHeight;
 }
 function jump(story,yes,no,state1){
-          document.getElementById("story").innerHTML = story + "<br><br>" + "/(story)";
+  var storyOG = document.getElementById("yes").innerHTML
+      document.getElementById("story").innerHTML = storyOG + "<br><br>" + story;
       document.getElementById("yes").innerHTML = yes;
       document.getElementById("no").innerHTML = no;
       state = state1
