@@ -59,9 +59,9 @@ function yes() {
            0)
             break;
     case 9:
-      jump("",
-           "",
-           "",
+      jump("You stay awake perceiving that it is most likely the safest way to be safe from the Wampanoag. After only 40 minutes of waiting you go into shock while your leg causes excruciating pain killing you after 5 minutes.",
+           "reset",
+           "reset",
            0)
             break;
     case 10:
