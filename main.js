@@ -38,7 +38,7 @@ function yes() {
       jump("You Bleed out and die. Now that was just stupid. What did you expect?",
            "reset",
            "reset",
-           1)
+           15)
             break;
     case 6:
       jump("",
@@ -95,11 +95,11 @@ function yes() {
            0)
           break;
     case 15:
-      jump("",
-           "",
-           "",
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
            1)
-            break;
+          break;
     case 16:
       jump("",
            "",
@@ -395,9 +395,9 @@ function no() {
            0)
           break;
     case 15:
-      jump("",
-           "",
-           "",
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
            1)
             break;
     case 16:
