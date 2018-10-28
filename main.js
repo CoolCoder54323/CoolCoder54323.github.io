@@ -398,7 +398,8 @@ function no() {
       jump("What do you want to be",
            "Englishmen",
            "Native",
-           1)
+           1,
+           true)
             break;
     case 16:
       jump("",
