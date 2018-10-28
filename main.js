@@ -600,7 +600,7 @@ function no() {
            "",
            0)
             break;
-
+ 
     
   }
   scrollD()
@@ -612,7 +612,7 @@ function scrollD() {
   objDiv.scrollTop = objDiv.scrollHeight;
 }
 function jump(story,yes,no,state1){
-  var storyOG = document.getElementById("yes").innerHTML
+  var storyOG = document.getElementById("story").innerHTML
   document.getElementById("story").innerHTML = storyOG + "<br><br>" + story;
   document.getElementById("yes").innerHTML = yes;
   document.getElementById("no").innerHTML = no;
