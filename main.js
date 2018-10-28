@@ -11,10 +11,10 @@ function yes() {
   switch (state) {
       
     case 1:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You wake up with screaming piercing your ears from outside from the cold Southern English environment. You sit up startled and dazed as two Indians break through your door. It’s the Wampanoag Indians, you have a peace treaty with them, but it has been slowly crumbling over the years. Do you...",
+           "Fight",
+           "Jump out the window behind you",
+           2)
       break;
     case 2:
       jump("",
@@ -309,10 +309,10 @@ function no() {
     switch (state) {
       
     case 1:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You consult King Philip about the next frontier to be raided. After you and your fellow warriors had destroyed and raided 11 consecutive frontiers this would be no different. The war all started after the white men killed off three of your warriors for no reason, drastic measures have to be taken, although you are not sure if fighting is the right option and stop to rethink what you are doing. Do you...",
+           "Fight like hell",
+           "Talk to King Philip about just consulting the English men or moving",
+           36)
       break;
     case 2:
       jump("",
@@ -608,8 +608,10 @@ function scrollD() {
 }
 function jump(story,yes,no,state1){
   var storyOG = document.getElementById("yes").innerHTML
-      document.getElementById("story").innerHTML = storyOG + "<br><br>" + story;
-      document.getElementById("yes").innerHTML = yes;
-      document.getElementById("no").innerHTML = no;
-      state = state1
+  document.getElementById("story").innerHTML = storyOG + "<br><br>" + story;
+  document.getElementById("yes").innerHTML = yes;
+  document.getElementById("no").innerHTML = no;
+  state = state1
 }
+
+ 
