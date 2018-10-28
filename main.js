@@ -17,26 +17,28 @@ function yes() {
            2)
       break;
     case 2:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You pick up your knife off of the bedside table and stare the Indians down scanning them to decide your best chance of surviving. One of the Wampanoag is holding a tomahawk while the other is holding a bow. Do you attack the...",
+           "Tomahawk",
+           "Bow",
+           3)
       break;
     case 3:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You lunge at the man holding the tomahawk and stab him in the chest. He screams in agony dropping his weapon. The bow attempts to shoot you, missing by an inch hitting the wall. You make your quick escape and stare behind to make sure no one is chasing you. Looking back may not have been the best decision, considering that you instantly fall straight onto your knife and it impales your leg. Do you...",
+           "Ignore the bleeding wound completely",
+           "Search an abandoned house for medical supplies",
+           5)
       break;
     case 4:
-      jump("",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 5:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You Bleed out and die. Now that was just stupid. What did you expect?",
+           "reset",
+           "reset",
+           1)
             break;
     case 6:
       jump("",
@@ -298,6 +300,7 @@ function yes() {
            "",
            0)
             break;
+
     
   }
   scrollD()
@@ -315,21 +318,22 @@ function no() {
            36)
       break;
     case 2:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You jump out your window thinking that you have avoided the Wampanoag Indians and all harm that they could cause you only to see 8 different Wampanoag Indians surrounding as they begin to stab you to death.",
+           "reset",
+           "reset",
+           4)
       break;
     case 3:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You lunge at the Indian with the bow straining your arm towards his leg and gashing it deeply, he falls over as you make your swift escape past the tomahawk. You take a quick look around with no Indians within your vision, suddenly you realize that through all of the adrenaline the Wampanoag with the tomahawk had sliced your leg and blood was oozing down. Do you...",
+           "Search a raided house for medical supplies",
+           "Leave into the forest through the cold climate",
+           6)
       break;
     case 4:
-      jump("",
-           0)
-            break;
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
     case 5:
       jump("",
            "",
@@ -596,6 +600,7 @@ function no() {
            "",
            0)
             break;
+
     
   }
   scrollD()
