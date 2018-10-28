@@ -611,12 +611,21 @@ function scrollD() {
   var objDiv = document.getElementById("story");
   objDiv.scrollTop = objDiv.scrollHeight;
 }
-function jump(story,yes,no,state1){
+function jump(story,yes,no,state1,reset){
+	if(reset != null){
+	var storyOG = ""
+  document.getElementById("story").innerHTML = storyOG + "<br><br>" + story;
+  document.getElementById("yes").innerHTML = yes;
+  document.getElementById("no").innerHTML = no;
+  state = state1
+	}
+	else {
   var storyOG = document.getElementById("story").innerHTML
   document.getElementById("story").innerHTML = storyOG + "<br><br>" + story;
   document.getElementById("yes").innerHTML = yes;
   document.getElementById("no").innerHTML = no;
   state = state1
+}
 }
 
  
