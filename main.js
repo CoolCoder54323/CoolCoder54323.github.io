@@ -113,10 +113,10 @@ function yes() {
            18)
             break;
     case 18:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You drift off to sleep and wake up in the morning. Your wound is looking better and you feel ready to continue. The only thing you need is some food and water. Finding water is a breeze and it only takes you seconds to find a stream. Finding food on the other hand is difficult for you. You don’t want to starve to death anytime soon. Do you...",
+           "Continue without food",
+           "Cut off a chunk of your torso and eat it.",
+           20)
             break;
     case 19:
       jump("You attempt to withstand the natives and in doing so they get freaked out, proceeding to beat you to death with their bare hands.",
@@ -125,10 +125,10 @@ function yes() {
            34)
             break;
     case 20:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You continue walking and eventually make it to the frontier. You proceed to the back of the frontier to talk to the whoever is in charge. Upon embarking there Commander Jorgan asks if you are doing ok and asks if you know why it happened. Do you...",
+           "Say that you already know",
+           "Ask him to tell you the story",
+           22)
             break;
     case 21:
       jump("",
@@ -137,27 +137,27 @@ function yes() {
            0)
             break;
     case 22:
-      jump("",
-           "",
-           "",
-           0)
+      jump("This is probably important. You should listen along.",
+           "Ask to hear",
+           "Ask to hear",
+           25)
             break;
     case 23:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 24:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Chief Jorgan begins to explain what has happened over the past months. The Wampanoag along with a few other tribes have been raiding villages attempting to drive us out of England. Your settlement is the 12th one to be attacked and hopefully the final. We had beheaded three of their warriors starting the war between us. Their leader King Philip was extremely upset and decided to take drastic measures. Chief Jorgan explains that he has an army ready to invade them on command and that they will begin their way to the Wampanoag on your command. Do you...",
+           "Send the the pilgrim army now",
+           "Send the army tomorrow after you are rested",
+           25)
             break;
     case 25:
-      jump("",
-           "",
-           "",
+      jump("Chief Jorgan begins to explain what has happened over the past months. The Wampanoag along with a few other tribes have been raiding villages attempting to drive us out of England. Your settlement is the 12th one to be attacked and hopefully the final. We had beheaded three of their warriors starting the war between us. Their leader King Philip was extremely upset and decided to take drastic measures. Chief Jorgan explains that he has an army ready to invade them on command and that they will begin their way to the Wampanoag on your command. Do you...",
+           "Send the the pilgrim army now",
+           "Send the army tomorrow after you are rested",
            0)
             break;
     case 26:
@@ -313,7 +313,7 @@ function no() {
       
     case 1:
       jump("You consult King Philip about the next frontier to be raided. After you and your fellow warriors had destroyed and raided 11 consecutive frontiers this would be no different. The war all started after the white men killed off three of your warriors for no reason, drastic measures have to be taken, although you are not sure if fighting is the right option and stop to rethink what you are doing. Do you...",
-           "Fight like hell",
+           "Fight like garbanzo beans",
            "Talk to King Philip about just consulting the English men or moving",
            36)
       break;
@@ -426,10 +426,10 @@ function no() {
            34)
             break;
     case 20:
-      jump("",
-           "",
-           "",
-           0)
+      jump("HOW HOW could you have possibly though that cutting off apart of you're torso than EATING IT would've worked, You’re not a trained medical professional and if you were you wouldn't have done that because you're body naturally eats itself when you start to starve, and you realize that after you cut a major artery. You begin to bleed out sitting there in stupidity.",
+           "reset",
+           "reset",
+           23)
             break;
     case 21:
       jump("",
@@ -438,16 +438,16 @@ function no() {
            0)
             break;
     case 22:
-      jump("",
-           "",
-           "",
-           0)
+      jump("This is probably important. You should listen along.",
+           "Ask to hear",
+           "Ask to hear",
+           25)
             break;
     case 23:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 24:
       jump("",
