@@ -421,10 +421,10 @@ function no() {
            19)
             break;
     case 18:
-      jump("HOW-HOW could you have possibly though that cutting off apart of your torso than EATING IT would've worked, You’re not a trained medical professional and if you were you wouldn't have done that because you're body naturally eats itself when you start to starve, and you realize that after you cut a major artery. You begin to bleed out sitting there in stupidity.",
-           "reset",
-           "reset",
-           23)
+      jump("You continue walking for another 12 hours and make it to the nearest frontier. It appears to have not been raided and you rush inside to talk to someone. After entering the peasants see your condition giving you food and water after hearing what had happened. You head to talk to the head of the settlement about what had happened. Do you...",
+           "Listen to the story",
+           "Ignore the story",
+           21)
             break;
     case 19:
       jump("You walk with the Wampanoag and they take you to meet King Philip their leader in this “rebelion”. He explains to you about why they have begun to raid your frontiers, you fall asleep for an unknown amount of time, and wake up hearing the sound of gunfire. There is no one around you, and suddenly another pilgrim breaks into the house you are in setting your free from your ropes. The pilgrims had won the battle successfully getting them to surrender. Do you...",
