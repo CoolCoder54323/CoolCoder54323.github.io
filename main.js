@@ -41,28 +41,28 @@ function yes() {
            15)
             break;
     case 6:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You run into the forest towards the nearest settlement in search of help, but while you run your wound gets filthy and infected. Do you...",
+           "Head back to the invaded settlement to search for medical supplies",
+           "Tough it out and stop acting like a wuss",
+           8)
             break;
     case 7:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You attempt to leave the house only to find a group of the Wampanoag Indians right outside of the door. They must have heard you rummaging the house. Of course, you die ",
+           "reset",
+           "reset",
+          14)
             break;
     case 8:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You begin to head back towards the settlement not realizing that you are making quite a bit of noise, you forget about the invaders focusing on your wound and just when you can see the settlement an arrow flies through your chest as you drop to the ground.",
+           "reset",
+           "reset",
+           9)
             break;
     case 9:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 10:
       jump("",
@@ -89,10 +89,10 @@ function yes() {
            0)
             break;
     case 14:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
           break;
     case 15:
       jump("What do you want to be",
@@ -341,16 +341,16 @@ function no() {
            0)
             break;
     case 6:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You run to a house that appears to have already been raided searching for bandages, and much to your luck you discover bandages and a cloth to keep your wound clean. Do you...",
+           "find a safe hiding spot outside then apply bandages",
+           "Apply bandages in the house",
+           7)
             break;
     case 7:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You clean off your wound and put the bandages on. Whilst you are almost finished applying that bandage you hear many people walking below you. Do you..",
+           "Inspect the footsteps",
+           "Ditch out the window",
+           13)
             break;
     case 8:
       jump("",
@@ -359,10 +359,10 @@ function no() {
            0)
             break;
     case 9:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 10:
       jump("",
@@ -389,10 +389,10 @@ function no() {
            0)
             break;
     case 14:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
           break;
     case 15:
       jump("What do you want to be",
