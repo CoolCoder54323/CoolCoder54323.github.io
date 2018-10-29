@@ -17,7 +17,7 @@ function yes() {
            2)
       break;
     case 2:
-      jump("You pick up your knife off of the bedside table and stare the Indians down, scanning them to decide your best chance of surviving. One of the Wampanoag is holding a tomahawk while the other is holding a bow and adjusting the arrow. Do you attack the...",
+      jump("You pick up your knife off of the bedside table and stare the Indians down, scanning them to decide your best chance of surviving. One of the Wampanoag is holding a tomahawk while the other is holding a bow and adjusting the arrow. Do you attack the indian with the...",
            "Tomahawk",
            "Bow",
            3)
