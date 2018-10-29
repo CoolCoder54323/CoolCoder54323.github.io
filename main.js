@@ -474,7 +474,7 @@ function no() {
            31)
             break;
     case 27:
-  document.getElementById("yes").innerHTML = <a href="https://coolcoder54323.github.io/win.html"></a>;
+  document.getElementById("yes").innerHTML = "<a href='https://coolcoder54323.github.io/win.html'></a>;"
   document.getElementById("no").innerHTML = no;
             break;
     case 28:
