@@ -340,6 +340,7 @@ function no() {
            "Englishmen",
            "Native",
            1)
+      	  break;
     case 5:
       jump("You run to a house that appears to have already been raided searching for bandages, and much to your luck you discover bandages and a cloth to keep your wound clean. Do you...",
            "find a safe hiding spot outside then apply bandages",
