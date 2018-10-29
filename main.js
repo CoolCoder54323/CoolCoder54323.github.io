@@ -167,22 +167,16 @@ function yes() {
            0)
             break;
     case 27:
-      jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You release the other indians, and have won the war pridefully and generously.",
-           "click here to partae",
-           "click here to partae",
-           50)
+            window.location.href = "https://coolcoder54323.github.io/win.html";
+
             break;
     case 28:
-      jump("",
-           "",
-           "",
-           0)
+            window.location.href = "https://coolcoder54323.github.io/win.html";
+
             break;
     case 29:
-      jump("",
-           "",
-           "",
-           0)
+            window.location.href = "https://coolcoder54323.github.io/win.html";
+
             break;
     case 30:
       jump("Your army rushes into the decaying settlement and begins firing at the Wampanoag. Bodies drop to the ground after the lead bullets get stuck inside of them. The Natives fight back with bows, as more and more rush in to help. You have the clear advantage considering that only a few Natives are wielding muskets. You see King Philip fighting along with the rest, easily recognized with his different appearance in clothing. The Wampanoag’s numbers begin to die down and eventually they surrender. Do you... ",
@@ -191,22 +185,22 @@ function yes() {
            27)
             break;
     case 31:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Your army begins to retreat and as you run backwards you get shot flat in the back of the head with a musket.",
+           "reset",
+           "reset",
+           32)
             break;
     case 32:
-      jump("",
-           "",
-           "",
-           0)
+     jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 33:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You release the other indians, and have won the war pridefully and generously.",
+           "You win click here",
+           "You win click here",
+           28)
             break;
     case 34:
       jump("What do you want to be",
@@ -215,96 +209,92 @@ function yes() {
            1)
      break;
     case 35:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You release the other indians, and have won the war pridefully and generously.",
+           "reset",
+           "reset",
+           28)
             break;
 
     case 36:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You realize that fighting is the only option that will work and begin to plot an invasion plan for this frontier. Do you...",
+           "Invade at day",
+           "Invade at night",
+           37)
             break;
 
     case 37:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Your army begins to press in on the pilgrims as the next day begins. You take into account that everyone in the frontier is currently awake putting you at a disadvantage. Do you...",
+           "Fight anyway",
+           "Come back at night",
+           39)
+            break;
+    case 38:
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 39:
-      jump("",
-           "",
-           "",
-           0)
-            break;
-    case 39:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Your army rushes into the frontier, but whilst your are only getting into it people begin to notice and attack you. The English have many more muskets than your side also leaving you at a disadvantage. Your men begin to die one by one and you realize that this was not the smartest strategy as you are shot in the no no spot. ",
+           "reset",
+           "reset",
+           41)
             break;
     case 40:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You think about the warriors that the English killed, one of them being your best friend, and decide that they don’t even deserve a future. You face your musket at the child and fire silencing it instantly. You truly are cruel hearted. While you decided what to do the other warriors had cleared out everyone. Do you...",
+           "Help raid",
+           "Search for any survivors",
+           42)
             break;
     case 41:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 42:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You and the warriors raid the entire village over a few days taking everything that has any use to you. You’re tribe has been doing well in attempting to drive out the English men and you have brought pride to your tribe. After raiding the village suddenly gunshots begin to be fired from the forest behind you. You look around and see English men attacking you. Do you...",
+           "Fight with the warriors you have",
+           "Call in backup",
+           44)
             break;
     case 43:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You and the warriors raid the entire village over a few days taking everything that has any use to you. You’re tribe has been doing well in attempting to drive out the English men and you have brought pride to your tribe. After raiding the village suddenly gunshots begin to be fired from the forest behind you. You look around and see English men attacking you. Do you...",
+           "Fight with the warriors you have",
+           "Call in backup ",
+           44)
             break;
     case 44:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Your warriors fight to the best of their ability doing everything they can to not die while also picking off the English. More and more of your warriors get shot until you are finally shot and killed.",
+           "reset",
+           "reset",
+           46)
             break;
     case 45:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Your warriors fight to the best of their ability doing everything they can to not die while also picking off the English. More and more of your warriors get shot until you are finally shot and killed.",
+           "reset",
+           "reset",
+           46)
             break;
     case 46:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 47:
-      jump("",
-           "",
-           "",
-           0)
+      jump("While all the commotion is going on you slip away into the open while they behead King Philip. You attempt to start a new life in Canada, but have more trouble then you thought you would.",
+           "you win click here",
+           "you win click here",
+           48)
             break;
     case 48:
-      jump("",
-           "",
-           "",
-           0)
+              window.location.href = "https://coolcoder54323.github.io/win.html";
+
             break;
     case 49:
-      jump("",
-           "",
-           "",
-           0)
+              window.location.href = "https://coolcoder54323.github.io/win.html";
+
             break;
 
     
@@ -430,7 +420,7 @@ function no() {
       jump("You walk with the Wampanoag and they take you to meet King Philip their leader in this “rebelion”. He explains to you about why they have begun to raid your frontiers, you fall asleep for an unknown amount of time, and wake up hearing the sound of gunfire. There is no one around you, and suddenly another pilgrim breaks into the house you are in setting your free from your ropes. The pilgrims had won the battle successfully getting them to surrender. Do you...",
            "Behead King Philip and let the rest go",
            "Behead King Philip and sell the rest into slavery",
-           29)
+           35)
             break;
     case 20:
       jump("HOW HOW could you have possibly though that cutting off apart of you're torso than EATING IT would've worked, You’re not a trained medical professional and if you were you wouldn't have done that because you're body naturally eats itself when you start to starve, and you realize that after you cut a major artery. You begin to bleed out sitting there in stupidity.",
@@ -478,16 +468,12 @@ function no() {
       window.location.href = "https://coolcoder54323.github.io/win.html";
             break;
     case 28:
-      jump("",
-           "",
-           "",
-           0)
+            window.location.href = "https://coolcoder54323.github.io/win.html";
+
             break;
     case 29:
-      jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You sell the other Indians into slavery, however some of them escape to Canada to begin a new life. You won the war cruelly.",
-           "You win click here!",
-           "You win click here!",
-           27)
+        window.location.href = "https://coolcoder54323.github.io/win.html";
+
             break;
     case 30:
       jump("You send your favorite soldier, Nick, in to scout. He peaks around the corner, looks side to side, turns around, gives the thumbs, and is instantly shot in the head. The Wampanoag see you and begin firing at your army with muskets and bows. Many of your men are dropping. Do you...",
@@ -502,16 +488,16 @@ function no() {
            33)
             break;
     case 32:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 33:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You sell the other Indians into slavery, however some of them escape to Canada to begin a new life. You won the war cruelly.",
+           "You win click here",
+           "You win click here",
+           28)
             break;
     case 34:
       jump("What do you want to be",
@@ -520,96 +506,92 @@ function no() {
            1)
      break;
     case 35:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You sell the other Indians into slavery, however some of them escape to Canada to begin a new life. You won the war cruelly.",
+           "You win click here!",
+           "You win click here!",
+           27)
             break;
 
     case 36:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You ask King Philip if this is really the best option, and eventually you lead into a heated argument with him. You are fed up with fighting and begin to leave, but soon after some of your fellow Wampanoag tribe drag you back and you are executed with a tomahawk. ",
+           "reset",
+           "reset",
+           38)
             break;
 
     case 37:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You and the other warriors begin to press in on the frontier late at night after coming to your senses that it is the smartest option. Your army begins to cause terror the town and it is working magnificently. You hear the rest of your tribe killing off each English man, and you check a house for yourself. You storm in killing the person inside. You look around and see an infant sitting in the corner crying. Do you...",
+           "Kill it",
+           "Take the infant back to your camp",
+           40)
+            break;
+    case 38:
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           40)
             break;
     case 39:
-      jump("",
-           "",
-           "",
-           0)
-            break;
-    case 39:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You and the other warriors begin to press in on the frontier late at night after coming to your senses that it is the smartest option. Your army begins to cause terror the town and it is working magnificently. You hear the rest of your tribe killing off each English man, and you check a house for yourself. You storm in killing the person inside. You look around and see an infant sitting in the corner crying. Do you...",
+           "Kill it",
+           "Take the infant back to your camp",
+           40)
             break;
     case 40:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You pick up the infant deciding that you would have to be insane to kill it and begin to walk it back to your camp. You assume that the warriors will be fine while you are gone. You make it to your camp and leave the infant with one of the Wampanoag tribe members. You head back to the frontier and help to help the warriors fight. Upon arrival you find that the village is empty and your troops had cleared it out and begun raiding. Do you… ",
+           "Help them raid",
+           "Search for survivors",
+           43)
             break;
     case 41:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 42:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You look around for survivors and after about a day of checking you help to raid. Whilst raiding one day gunshots begin to be fired from the forest behind you. You look around and see English men attacking you. Do you...",
+           "Fight with the warriors you have",
+           "Call in backup",
+           45)
             break;
     case 43:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You look around for survivors and after about a day of checking you help to raid. Whilst raiding one day gunshots begin to be fired from the forest behind you. You look around and see English men attacking you. Do you...",
+           "Fight with the warriors you have",
+           "Call in backup",
+           45)
             break;
     case 44:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 45:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You send one of the warriors to bring reinforcements from the tribe to help you defend your ground. Many people from your tribe including King Philip show up ready for a fight. You kill off many of the English before they start hitting their shots and your team begins dropping like flies. Eventually you are pushed to surrender. There is nothing you can do. The English round up everyone including King Philip to end the war. Do you...",
+           "Escape to Canada",
+           "Stay where you are and hope you will be gifted freedom",
+           47)
             break;
     case 46:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 47:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You stay through the beheadale of King Philip and wait to see what the English do with you. You did not make the right decision though as you are sold into slavery two days later.",
+           "you win click here",
+           "you win click here",
+           49)
             break;
     case 48:
-      jump("",
-           "",
-           "",
-           0)
+              window.location.href = "https://coolcoder54323.github.io/win.html";
+
             break;
     case 49:
-      jump("",
-           "",
-           "",
-           0)
+              window.location.href = "https://coolcoder54323.github.io/win.html";
+
             break;
  
     
