@@ -155,9 +155,9 @@ function yes() {
            25)
             break;
     case 25:
-      jump("Chief Jorgan begins to explain what has happened over the past months. The Wampanoag along with a few other tribes have been raiding villages attempting to drive us out of England. Your settlement is the 12th one to be attacked and hopefully the final. We had beheaded three of their warriors starting the war between us. Their leader King Philip was extremely upset and decided to take drastic measures. Chief Jorgan explains that he has an army ready to invade them on command and that they will begin their way to the Wampanoag on your command. Do you...",
-           "Send the the pilgrim army now",
-           "Send the army tomorrow after you are rested",
+      jump("Considering the trouble that the Natives caused you, you decide to grab your musket and lead the army today. The army begins their trek through the forest back to your destroyed settlement. Once you arrive the the Wampanoag are still raiding the settlement. Do you... ",
+           "Charge your army",
+           "Send one man in to scout",
            0)
             break;
     case 26:
@@ -167,10 +167,10 @@ function yes() {
            0)
             break;
     case 27:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You release the other indians, and have won the war pridefully and generously.",
+           "click here to partae",
+           "click here to partae",
+           50)
             break;
     case 28:
       jump("",
@@ -185,6 +185,12 @@ function yes() {
            0)
             break;
     case 30:
+      jump("Your army rushes into the decaying settlement and begins firing at the Wampanoag. Bodies drop to the ground after the lead bullets get stuck inside of them. The Natives fight back with bows, as more and more rush in to help. You have the clear advantage considering that only a few Natives are wielding muskets. You see King Philip fighting along with the rest, easily recognized with his different appearance in clothing. The Wampanoag’s numbers begin to die down and eventually they surrender. Do you... ",
+           "Behead King Philip and let the rest go",
+           "Behead King Philip and sell the rest into slavery",
+           27)
+            break;
+    case 31:
       jump("",
            "",
            "",
@@ -441,7 +447,7 @@ function no() {
       jump("This is probably important. You should listen along.",
            "Ask to hear",
            "Ask to hear",
-           25)
+           24)
             break;
     case 23:
       jump("What do you want to be",
@@ -450,16 +456,16 @@ function no() {
            1)
             break;
     case 24:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Chief Jorgan begins to explain what has happened over the past months. The Wampanoag along with a few other tribes have been raiding villages attempting to drive us out of England. Your settlement is the 12th one to be attacked and hopefully the final. We had beheaded three of their warriors starting the war between us. Their leader King Philip was extremely upset and decided to take drastic measures. Chief Jorgan explains that he has an army ready to invade them on command and that they will begin their way to the Wampanoag on your command. Do you...",
+           "Send the the pilgrim army now",
+           "Send the army tomorrow after you are rested",
+           25)
             break;
     case 25:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Your army treks through the woods and makes it to the abandoned settlement. Lucky for you the Wampanoag are still there roaming, and raiding the settlement. Do you...",
+           "Send your army in right away",
+           "send one guy in to scout",
+           30)
             break;
     case 26:
       jump("",
@@ -486,6 +492,12 @@ function no() {
            50)
             break;
     case 30:
+      jump("You send your favorite soldier, Nick, in to scout. He peaks around the corner, looks side to side, turns around, gives the thumbs, and is instantly shot in the head. The Wampanoag see you and begin firing at your army with muskets and bows. Many of your men are dropping. Do you...",
+           "retreat",
+           "Stand your ground",
+           31)
+            break;
+    case 31:
       jump("",
            "",
            "",
