@@ -41,10 +41,10 @@ function yes() {
            15)
             break;
     case 6:
-      jump("You run into the forest towards the nearest settlement in search of help, but while you run your wound gets filthy and infected. Do you...",
-           "Head back to the invaded settlement to search for medical supplies",
-           "Tough it out and stop acting like a wuss",
-           8)
+      jump("You run to a house that appears to have already been raided searching for bandages, and much to your luck you discover bandages and a cloth to keep your wound clean. Do you...",
+           "find a safe hiding spot outside then apply bandages",
+           "Apply bandages in the house",
+           7)
             break;
     case 7:
       jump("You attempt to leave the house only to find a group of the Wampanoag Indians right outside of the door. They must have heard you rummaging the house. Of course, you die ",
@@ -341,10 +341,10 @@ function no() {
            0)
             break;
     case 6:
-      jump("You run to a house that appears to have already been raided searching for bandages, and much to your luck you discover bandages and a cloth to keep your wound clean. Do you...",
-           "find a safe hiding spot outside then apply bandages",
-           "Apply bandages in the house",
-           7)
+      jump("You run into the forest towards the nearest settlement in search of help, but while you run your wound gets filthy and infected. Do you...",
+           "Head back to the invaded settlement to search for medical supplies",
+           "Tough it out and stop acting like a wuss",
+           8)
             break;
     case 7:
       jump("You clean off your wound and put the bandages on. Whilst you are almost finished applying that bandage you hear many people walking below you. Do you..",
