@@ -158,17 +158,19 @@ function yes() {
       jump("Considering the trouble that the Natives caused you, you decide to grab your musket and lead the army today. The army begins their trek through the forest back to your destroyed settlement. Once you arrive the the Wampanoag are still raiding the settlement. Do you... ",
            "Charge your army",
            "Send one man in to scout",
-           0)
+           26)
             break;
     case 26:
       jump("Your army rushes into the decaying settlement and begins firing at the Wampanoag. Bodies drop to the ground after the lead bullets get stuck inside of them. The Natives fight back with bows, as more and more rush in to help. You have the clear advantage considering that only a few Natives are wielding muskets. You see King Philip fighting along with the rest, easily recognized with his different appearance in clothing. The Wampanoag’s numbers begin to die down and eventually they surrender. Do you... ",
            "Behead King Philip and let the rest go",
            "Behead King Philip and sell the rest into slavery",
-           0)
+           27)
             break;
     case 27:
-            window.location.href = "https://coolcoder54323.github.io/win.html";
-
+      jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You release the other indians, and have won the war pridefully and generously.",
+           "you win click here",
+           "you win click here",
+           28)
             break;
     case 28:
             window.location.href = "https://coolcoder54323.github.io/win.html";
