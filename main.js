@@ -65,22 +65,22 @@ function yes() {
            1)
             break;
     case 10:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You fall asleep for about 40 minutes not getting a full hour because you wake up in excruciating pain. You stare down at your wound as your vision goes blurry and you pass out and perish.",
+           "reset",
+           "reset",
+           11)
             break;
     case 11:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 12:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 13:
       jump("You inspect the source of the footsteps finding yourself eye to eye with an Indian when you turn the corner. Startled you fall backwards and ask why they have raided your settlement. The Indian named King Philip explains that they are attempting to drive you out of England for taking their land before he kills you.",
@@ -131,10 +131,10 @@ function yes() {
            22)
             break;
     case 21:
-      jump("",
-           "",
-           "",
-           0)
+      jump("Chief Jorgan begins to explain what has happened over the past months. The Wampanoag along with a few other tribes have been raiding villages attempting to drive us out of England. Your settlement is the 12th one to be attacked and hopefully the final. We had beheaded three of their warriors starting the war between us. Their leader King Philip was extremely upset and decided to take drastic measures. Chief Jorgan explains that he has an army ready to invade them on command and that they will begin their way to the Wampanoag on your command. Do you...",
+           "Send the the pilgrim army now",
+           "Send the army tomorrow after you are rested",
+           25)
             break;
     case 22:
       jump("This is probably important. You should listen along.",
@@ -341,10 +341,10 @@ function no() {
            "Native",
            1)
     case 5:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You run to a house that appears to have already been raided searching for bandages, and much to your luck you discover bandages and a cloth to keep your wound clean. Do you...",
+           "find a safe hiding spot outside then apply bandages",
+           "Apply bandages in the house",
+           7)
             break;
     case 6:
       jump("You run into the forest towards the nearest settlement in search of help, but while you run your wound gets filthy and infected. Do you...",
@@ -359,10 +359,10 @@ function no() {
            13)
             break;
     case 8:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You decide that it’s not worth going back to the settlement because of the Wampanoag and continue heading towards to the nearest settlement to consult the reset of your fellow English. You decide to rest for a little as you are tired from fighting. Do you...",
+           "Sleep for an hour",
+           "Stay awake but rest",
+           10)
             break;
     case 9:
       jump("What do you want to be",
@@ -371,22 +371,22 @@ function no() {
            1)
             break;
     case 10:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You stay awake perceiving that it is most likely the safest way to be safe from the Wampanoag. After only 40 minutes of waiting you go into shock while your leg causes excruciating pain killing you after 5 minutes.",
+           "reset",
+           "reset",
+           11)
             break;
     case 11:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 12:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 13:
       jump("You instantly jump out the window petrified of what could be outside and much to your luck you land safely on some soft grass. Do you...",
@@ -420,10 +420,10 @@ function no() {
            19)
             break;
     case 18:
-      jump("",
-           "",
-           "",
-           0)
+      jump("HOW-HOW could you have possibly though that cutting off apart of your torso than EATING IT would've worked, You’re not a trained medical professional and if you were you wouldn't have done that because you're body naturally eats itself when you start to starve, and you realize that after you cut a major artery. You begin to bleed out sitting there in stupidity.",
+           "reset",
+           "reset",
+           23)
             break;
     case 19:
       jump("You walk with the Wampanoag and they take you to meet King Philip their leader in this “rebelion”. He explains to you about why they have begun to raid your frontiers, you fall asleep for an unknown amount of time, and wake up hearing the sound of gunfire. There is no one around you, and suddenly another pilgrim breaks into the house you are in setting your free from your ropes. The pilgrims had won the battle successfully getting them to surrender. Do you...",
@@ -438,10 +438,10 @@ function no() {
            23)
             break;
     case 21:
-      jump("",
-           "",
-           "",
-           0)
+      jump("This is probably important. You should listen along.",
+           "Ask to hear",
+           "Ask to hear",
+           24)
             break;
     case 22:
       jump("This is probably important. You should listen along.",
