@@ -11,25 +11,25 @@ function yes() {
   switch (state) {
       
     case 1:
-      jump("You wake up with screaming piercing your ears from outside from the cold Southern English environment. You sit up startled and dazed as two Indians break through your door. It’s the Wampanoag Indians, you have a peace treaty with them, but it has been slowly crumbling over the years. Do you...",
+      jump("You are jarred awake from your sleep as you hear screams piercing through the cold Southern English environment outside, sounds painful to your ears. You sit up startled and dazed as two Indians break through your door. To you horror, it is the Wampanoag Indians, but you have a peace treaty with them, however shaky. It has been slowly crumbling over the years. Do you...",
            "Fight",
            "Jump out the window behind you",
            2)
       break;
     case 2:
-      jump("You pick up your knife off of the bedside table and stare the Indians down scanning them to decide your best chance of surviving. One of the Wampanoag is holding a tomahawk while the other is holding a bow. Do you attack the...",
+      jump("You pick up your knife off of the bedside table and stare the Indians down, scanning them to decide your best chance of surviving. One of the Wampanoag is holding a tomahawk while the other is holding a bow and adjusting the arrow. Do you attack the...",
            "Tomahawk",
            "Bow",
            3)
       break;
     case 3:
-      jump("You lunge at the man holding the tomahawk and stab him in the chest. He screams in agony dropping his weapon. The bow attempts to shoot you, missing by an inch hitting the wall. You make your quick escape and stare behind to make sure no one is chasing you. Looking back may not have been the best decision, considering that you instantly fall straight onto your knife and it impales your leg. Do you...",
+      jump("You lunge at the man holding the tomahawk and stab him in the chest. He screams in agony, dropping his weapon. The arrow from the other Indian nearly hits you, missing by an inch and hitting the wall. You quickly escape, looking behind you to make sure no one is chasing you. In hindsight, looking back may not have been the best decision, considering that you instantly fall straight onto your knife and it impales your leg. Do you...",
            "Ignore the bleeding wound completely",
            "Search an abandoned house for medical supplies",
            5)
       break;
     case 4:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -59,7 +59,7 @@ function yes() {
            9)
             break;
     case 9:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -71,13 +71,13 @@ function yes() {
            11)
             break;
     case 11:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
             break;
     case 12:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -89,19 +89,19 @@ function yes() {
            16)
             break;
     case 14:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
           break;
     case 15:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
           break;
     case 16:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -143,7 +143,7 @@ function yes() {
            25)
             break;
     case 23:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -191,7 +191,7 @@ function yes() {
            32)
             break;
     case 32:
-     jump("What do you want to be",
+     jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -203,7 +203,7 @@ function yes() {
            28)
             break;
     case 34:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -229,7 +229,7 @@ function yes() {
            39)
             break;
     case 38:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -247,7 +247,7 @@ function yes() {
            42)
             break;
     case 41:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -277,7 +277,7 @@ function yes() {
            46)
             break;
     case 46:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -326,7 +326,7 @@ function no() {
            6)
       break;
     case 4:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -356,7 +356,7 @@ function no() {
            10)
             break;
     case 9:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -368,13 +368,13 @@ function no() {
            11)
             break;
     case 11:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
             break;
     case 12:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -386,20 +386,20 @@ function no() {
            17)
             break;
     case 14:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
           break;
     case 15:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1,
            true)
             break;
     case 16:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -441,7 +441,7 @@ function no() {
            24)
             break;
     case 23:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -488,7 +488,7 @@ function no() {
            33)
             break;
     case 32:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -500,7 +500,7 @@ function no() {
            28)
             break;
     case 34:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -526,7 +526,7 @@ function no() {
            40)
             break;
     case 38:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            40)
@@ -544,7 +544,7 @@ function no() {
            43)
             break;
     case 41:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -562,7 +562,7 @@ function no() {
            45)
             break;
     case 44:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
@@ -574,7 +574,7 @@ function no() {
            47)
             break;
     case 46:
-      jump("What do you want to be",
+      jump("King Philip's War is upon us, which side are you on?",
            "Englishmen",
            "Native",
            1)
