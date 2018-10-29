@@ -429,7 +429,7 @@ function no() {
       jump("You walk with the Wampanoag and they take you to meet King Philip their leader in this “rebelion”. He explains to you about why they have begun to raid your frontiers, you fall asleep for an unknown amount of time, and wake up hearing the sound of gunfire. There is no one around you, and suddenly another pilgrim breaks into the house you are in setting your free from your ropes. The pilgrims had won the battle successfully getting them to surrender. Do you...",
            "Behead King Philip and let the rest go",
            "Behead King Philip and sell the rest into slavery",
-           34)
+           29)
             break;
     case 20:
       jump("HOW HOW could you have possibly though that cutting off apart of you're torso than EATING IT would've worked, You’re not a trained medical professional and if you were you wouldn't have done that because you're body naturally eats itself when you start to starve, and you realize that after you cut a major artery. You begin to bleed out sitting there in stupidity.",
@@ -474,8 +474,7 @@ function no() {
            31)
             break;
     case 27:
-  document.getElementById("yes").innerHTML = "<a href='https://coolcoder54323.github.io/win.html'></a>;"
-  document.getElementById("no").innerHTML = no;
+      window.location.href = "https://coolcoder54323.github.io/win.html";
             break;
     case 28:
       jump("",
@@ -487,7 +486,7 @@ function no() {
       jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You sell the other Indians into slavery, however some of them escape to Canada to begin a new life. You won the war cruelly.",
            "You win click here!",
            "You win click here!",
-           50)
+           27)
             break;
     case 30:
       jump("You send your favorite soldier, Nick, in to scout. He peaks around the corner, looks side to side, turns around, gives the thumbs, and is instantly shot in the head. The Wampanoag see you and begin firing at your army with muskets and bows. Many of your men are dropping. Do you...",
