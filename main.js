@@ -161,9 +161,9 @@ function yes() {
            0)
             break;
     case 26:
-      jump("",
-           "",
-           "",
+      jump("Your army rushes into the decaying settlement and begins firing at the Wampanoag. Bodies drop to the ground after the lead bullets get stuck inside of them. The Natives fight back with bows, as more and more rush in to help. You have the clear advantage considering that only a few Natives are wielding muskets. You see King Philip fighting along with the rest, easily recognized with his different appearance in clothing. The Wampanoag’s numbers begin to die down and eventually they surrender. Do you... ",
+           "Behead King Philip and let the rest go",
+           "Behead King Philip and sell the rest into slavery",
            0)
             break;
     case 27:
@@ -468,10 +468,10 @@ function no() {
            30)
             break;
     case 26:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You send your favorite soldier, Nick, in to scout. He peaks around the corner, looks side to side, turns around, gives the thumbs, and is instantly shot in the head. The Wampanoag see you and begin firing at your army with muskets and bows. Many of your men are dropping. Do you...",
+           "retreat",
+           "Stand your ground",
+           31)
             break;
     case 27:
       jump("",
@@ -498,10 +498,10 @@ function no() {
            31)
             break;
     case 31:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You tell your army to stand their ground and they do so. FInally all of the pilgrims begin to hit their shots as if they were not trying before. Bodies drop to the ground after the lead bullets get stuck inside of them. The Natives fight back with bows, as more and more rush in to help. You have the clear advantage considering that only a few Natives are wielding muskets after the many you slaightered. You see King Philip fighting along with the rest, easily recognized with his different appearance in clothing. The Wampanoag’s numbers begin to die down and eventually they surrender. Do you... ",
+           "Behead King Philip and let the rest go",
+           "Behead King Philip and sell the rest into slavery",
+           33)
             break;
     case 32:
       jump("",
