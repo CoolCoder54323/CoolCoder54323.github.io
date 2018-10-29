@@ -83,10 +83,10 @@ function yes() {
            0)
             break;
     case 13:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You inspect the source of the footsteps finding yourself eye to eye with an Indian when you turn the corner. Startled you fall backwards and ask why they have raided your settlement. The Indian named King Philip explains that they are attempting to drive you out of England for taking their land before he kills you.",
+           "reset",
+           "reset",
+           16)
             break;
     case 14:
       jump("What do you want to be",
@@ -101,16 +101,16 @@ function yes() {
            1)
           break;
     case 16:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 17:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You begin walking North towards the frontier. You check on your leg, it already looking better and re-apply the bandages. Do you...",
+           "Rest for the night",
+           "Tuff the walk out for another 12 hours",
+           18)
             break;
     case 18:
       jump("",
@@ -119,10 +119,10 @@ function yes() {
            0)
             break;
     case 19:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You attempt to withstand the natives and in doing so they get freaked out, proceeding to beat you to death with their bare hands.",
+           "reset",
+           "reset",
+           34)
             break;
     case 20:
       jump("",
@@ -203,10 +203,10 @@ function yes() {
            0)
             break;
     case 34:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
      break;
     case 35:
       jump("",
@@ -383,10 +383,10 @@ function no() {
            0)
             break;
     case 13:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You instantly jump out the window petrified of what could be outside and much to your luck you land safely on some soft grass. Do you...",
+           "Head towards the nearest frontier in search of help",
+           "Attempt to talk to the Indians",
+           17)
             break;
     case 14:
       jump("What do you want to be",
@@ -402,16 +402,16 @@ function no() {
            true)
             break;
     case 16:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
             break;
     case 17:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You decide that it is only logical to talk to the Indians, they are people too. You approach one, hands in the air and they surround you. They do not kill you only drag you with them. Do you...",
+           "Resist",
+           "Agree to go with them",
+           19)
             break;
     case 18:
       jump("",
@@ -420,10 +420,10 @@ function no() {
            0)
             break;
     case 19:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You walk with the Wampanoag and they take you to meet King Philip their leader in this “rebelion”. He explains to you about why they have begun to raid your frontiers, you fall asleep for an unknown amount of time, and wake up hearing the sound of gunfire. There is no one around you, and suddenly another pilgrim breaks into the house you are in setting your free from your ropes. The pilgrims had won the battle successfully getting them to surrender. Do you...",
+           "Behead King Philip and let the rest go",
+           "Behead King Philip and sell the rest into slavery",
+           34)
             break;
     case 20:
       jump("",
@@ -480,10 +480,10 @@ function no() {
            0)
             break;
     case 29:
-      jump("",
-           "",
-           "",
-           0)
+      jump("You gather the Indians and surround them with King Philip in the middle. To signify the end of the war you behead king Philip the leader of the Wampanoag. You sell the other Indians into slavery, however some of them escape to Canada to begin a new life. You won the war cruelly.",
+           "You win click here!",
+           "You win click here!",
+           50)
             break;
     case 30:
       jump("",
@@ -504,10 +504,10 @@ function no() {
            0)
             break;
     case 34:
-      jump("",
-           "",
-           "",
-           0)
+      jump("What do you want to be",
+           "Englishmen",
+           "Native",
+           1)
      break;
     case 35:
       jump("",
