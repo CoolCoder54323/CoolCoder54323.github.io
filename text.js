@@ -52,6 +52,8 @@
 
     var img = document.createElement("img");
     img.src = ASSET;
+    img.height = "50%";
+    img.width = "50%";
     innerMarquee.appendChild(img);
 
     var body = document.body;
